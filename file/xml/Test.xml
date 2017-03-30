@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<books> 
+  <book> 
+    <name>XXXXX</name>  
+    <author>dyq</author>  
+    <price>543</price> 
+  </book>  
+  <book> 
+    <name>java</name>  
+    <author>dwc</author>  
+    <price>432</price>  
+    <time>2018-12-12</time>
+  </book>  
+  <book> 
+    <name>computer</name>  
+    <author>saiu</author>  
+    <price>543</price> 
+  </book>  
+  <book> 
+    <name>computer</name>  
+    <author>saiu</author>  
+    <price>543</price> 
+  </book> 
+</books>
