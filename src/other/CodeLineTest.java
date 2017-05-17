@@ -6,13 +6,9 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
 
@@ -47,6 +43,7 @@ public class CodeLineTest {
 		});
 		return list;
 	}
+	@SuppressWarnings("unused")
 	public static void lineCount(String name) throws IOException{
 		List<String> list=fileCount(name);
 		int count=0;
