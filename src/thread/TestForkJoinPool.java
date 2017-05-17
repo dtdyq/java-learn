@@ -15,7 +15,8 @@ import java.util.concurrent.TimeUnit;
  *      RecursiveTask：有返回值的任务
  */
 public class TestForkJoinPool extends RecursiveAction{
-    private static final int MAX_SIZE=50;
+	private static final long serialVersionUID = 1L;
+	private static final int MAX_SIZE=50;
     private int beg;
     private int end;
     public TestForkJoinPool(int beg,int end){

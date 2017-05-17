@@ -1,9 +1,8 @@
 package thread;
 
-import junit.framework.Test;
 
 /**
- * Created by Admin on 2017/3/23.
+ * Created by dtdyq on 2017/3/23.
  * 在后台运行，任务是为其他的线程提供服务的线程成为守护线程
  * 特点：如果所有前台线程都死亡，后台线程会自动死亡
  * 调用Thread的setDaemon(true)方法，可以将指定线程设置成后台线程

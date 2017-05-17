@@ -1,7 +1,7 @@
 package thread;
 
 /**
- * Created by Admin on 2017/3/24.
+ * Created by dtdyq on 2017/3/24.
  * java5开始，java加强了线程的异常处理，如果线程执行过程中抛出未处理异常
  * JVM在结束该线程之前，会检查是否有对应的Thread.UncaughtExceptionHandler
  * 对象，如果有的话，则会调用该对象的uncanghtException(Thread t,throwable e)
@@ -17,7 +17,8 @@ package thread;
  *              为指定线程实例设置异常处理器
  */
 public class TestexHandler {
-    public static void main(String[] args){
+    @SuppressWarnings("unused")
+	public static void main(String[] args){
         Thread.currentThread().setUncaughtExceptionHandler(new myExHandler());
         int a=12/0;
         System.out.println("program exit with 0");

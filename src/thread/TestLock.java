@@ -17,7 +17,8 @@ public class TestLock {
     //定义锁对象
     private final ReentrantLock lock=new ReentrantLock();
 
-    private String accountNo;
+    @SuppressWarnings("unused")
+	private String accountNo;
     private double balance;
     public TestLock(){};
     public TestLock(String accountNo,double balance){
