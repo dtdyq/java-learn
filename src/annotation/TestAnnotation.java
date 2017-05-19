@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import org.junit.Test;
 
 /**
  * Annotation与一般注释不同，是代码中的一种特殊标记
@@ -24,9 +23,11 @@ import org.junit.Test;
  *
  */
 public class TestAnnotation {
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		faultMethod(new List[3]);
 	}
+	@SuppressWarnings("rawtypes")
 	@SafeVarargs
 	public static void faultMethod(List<String>...listArray){
 		List[] list=listArray;
