@@ -16,6 +16,7 @@ import org.junit.Test;
  *
  */
 public class OverrideHashCode {
+	
 	@Test
 	public void test1(){
 		//没有添加hashCode时下面的类出现的错误：
